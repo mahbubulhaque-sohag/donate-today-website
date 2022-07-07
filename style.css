@@ -5,10 +5,10 @@ body{
 
 h1{
     font-size: 50px;
-    font-weight: 800px;
+    font-weight: 700px;
 }
 
-.header-part p{font-size: 20px;
+p{font-size: 20px;
 
 }
 
@@ -86,7 +86,6 @@ h1{
 }
 
 #food{
-    box-shadow: 2px 2px 30px gray;
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -95,7 +94,6 @@ h1{
     margin-left: 200px;
 }
 #shelter{
-    box-shadow: 2px 2px 30px rgb(231, 166, 166);
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -105,7 +103,6 @@ h1{
 }
 
 #education{
-    box-shadow: 2px 2px 30px rgb(171, 156, 224);
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -119,8 +116,16 @@ h1{
     width:100%;
     height: 500px;
 }
+.contibute-button{
+    text-align: center;
+    margin-left: 600px;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+}
 
-.pp{
+.para{
     padding-left: 20px;
 
 }
@@ -147,16 +152,19 @@ h1{
 
 .subscribe-button{
     text-decoration: none;
+    color: white;
     background-color: orange;
     margin-left: -4px;
-    padding-left: 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 
 footer{
     text-align: center;
     background-color: black;
 }
-footer h1{
+footer h2{
     color: red;
     font-style: italic;
     font-family: 'Lucida Sans';
